@@ -1,0 +1,15 @@
+{
+  "name": "awaz-e-sadat",
+  "version": "9.0.0",
+  "description": "Awaz-e-Sadat professional community social platform with profiles, feed, reels, shorts, documentaries, comments, likes, admin controls and AI web-search assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "multer": "^2.0.0"
+  }
+}
